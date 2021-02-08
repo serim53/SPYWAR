@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Spywar</string>
+
+    <string name="description">스파이워는 "대화로 게임하기", \n"이름표떼기"의 버전이 있습니다.\n\n 원하는 버전을 선택하고 \n한명씩 돌아가며\n
+        자신의 역할을 확인합니다.\n\n특정 시간이 지나면 자동으로 다음 차례로 넘어갑니다.\n\n자신의 미션을 수행하고 \n사회자에게 확인을 받습니다.\n\n
+        사회자는 모두의 미션을 \n알고있습니다.
+    </string>
 </resources>
