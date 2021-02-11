@@ -20,6 +20,7 @@
         <activity android:name=".SelectPage"></activity>
         <activity android:name=".NameRole"></activity>
         <activity android:name=".TalkRole"></activity>
+        <activity android:name=".Talknumber"></activity>
     </application>
 
 </manifest>

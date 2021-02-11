@@ -19,7 +19,7 @@ public class SelectPage extends AppCompatActivity {
         talkbtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
                 // 인텐트 선언 : 현재 엑티비티, 넘어갈 엑티비티
-                Intent intent = new Intent(SelectPage.this, TalkRole.class);
+                Intent intent = new Intent(SelectPage.this, Talknumber.class);
                 // 인텐트 실행
                 startActivity(intent);
             }
@@ -28,7 +28,7 @@ public class SelectPage extends AppCompatActivity {
         nametagbtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
                 // 인텐트 선언 : 현재 엑티비티, 넘어갈 엑티비티
-                Intent intent = new Intent(SelectPage.this, NameRole.class);
+                Intent intent = new Intent(SelectPage.this, Talknumber.class);
                 // 인텐트 실행
                 startActivity(intent);
             }
