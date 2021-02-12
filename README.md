@@ -13,14 +13,14 @@
 
 ### 기능설명  
 
-
+<br/><br/>
 
 ### [main_page]  
 ![mainpage](https://user-images.githubusercontent.com/67946662/107739136-8ec23880-6d4b-11eb-856b-ad8a3a7361f8.JPG)  
 * 애플리케이션을 켜면 바로 보이는 페이지입니다.
 * 스파이이미지의 아이콘을 클릭하면 게임을 시작하는 페이지로 이동합니다.
 * HOWTO... 위의 권총 아이콘을 클릭하면, 게임을 설명하는 custom dialog가 등장합니다.    
-
+<br/><br/>
 
 ### [custom_dialog]  
 ![customdialog](https://user-images.githubusercontent.com/67946662/107739339-fd06fb00-6d4b-11eb-819f-4d6df137cb1b.JPG)  
@@ -32,7 +32,7 @@
         // 설명의 내용이 길어져 화면을 넘어가게 되므로 scrollview를 설정해준다.
         description.setMovementMethod(new ScrollingMovementMethod());
 ```      
-
+<br/><br/>
 
 ### [Select page]  
 ![selectpage](https://user-images.githubusercontent.com/67946662/107739472-49ead180-6d4c-11eb-8fd1-51f073c08155.JPG)  
@@ -40,14 +40,14 @@
 * 스파이아이콘을 클릭하면 보이는 페이지로 두 가지 옵션을 선택할 수 있습니다.
 * "대화로 게임하기", "이름표떼기로 게임하기" 두 가지입니다.
 * 가장 큰 차이는 앉아서, 서서 게임을 한다는 점입니다.    
-  
+<br/><br/>
 
 ### [NumberInput page]  
 ![gamenum](https://user-images.githubusercontent.com/67946662/107739588-8a4a4f80-6d4c-11eb-84fb-3c2c5a67110b.JPG)  
 
 * 게임을 하는 총 인원수를 입력할 수 있습니다.
 * 게임 인원에 따라 스파이의 수가 달라집니다.    
-
+<br/><br/>
 
 
 ### [Role page]  
