@@ -10,10 +10,11 @@
   동아리, 동창회 등 많은 사람들이 모였을 때 아이스브레이킹하기 좋은 게임입니다.  
 
 ------------  
+<br/>
 
 ### 기능설명  
 
-<br/><br/>
+<br/>
 
 ### [main_page]  
 ![mainpage](https://user-images.githubusercontent.com/67946662/107739136-8ec23880-6d4b-11eb-856b-ad8a3a7361f8.JPG)  
@@ -32,7 +33,7 @@
         // 설명의 내용이 길어져 화면을 넘어가게 되므로 scrollview를 설정해준다.
         description.setMovementMethod(new ScrollingMovementMethod());
 ```      
-<br/><br/>
+<br/>
 
 ### [Select page]  
 ![selectpage](https://user-images.githubusercontent.com/67946662/107739472-49ead180-6d4c-11eb-8fd1-51f073c08155.JPG)  
@@ -40,14 +41,14 @@
 * 스파이아이콘을 클릭하면 보이는 페이지로 두 가지 옵션을 선택할 수 있습니다.
 * "대화로 게임하기", "이름표떼기로 게임하기" 두 가지입니다.
 * 가장 큰 차이는 앉아서, 서서 게임을 한다는 점입니다.    
-<br/><br/>
+<br/>
 
 ### [NumberInput page]  
 ![gamenum](https://user-images.githubusercontent.com/67946662/107739588-8a4a4f80-6d4c-11eb-84fb-3c2c5a67110b.JPG)  
 
 * 게임을 하는 총 인원수를 입력할 수 있습니다.
 * 게임 인원에 따라 스파이의 수가 달라집니다.    
-<br/><br/>
+<br/>
 
 
 ### [Role page]  
@@ -71,7 +72,7 @@
         for(int i=0;i<citizennum;i++)
             roles.add("시민");
 ```    
-<br/><br/>
+<br/>
 
 * 모든 역할과 미션은 Collections의 shuffle 기능을 이용하여 매번 역할과 미션이 랜덤으로 달라질 수 있도록 했습니다.  
 
@@ -82,7 +83,7 @@
         // 미션 셔플(매번 랜덤으로 각 시민마다 미션이 다르게 나오기 위함)
         Collections.shuffle(Arrays.asList(citizenmission));
 ```    
-<br/><br/>
+<br/>
 
 * 게임에 참여하는 인원은 한사람씩 핸드폰을 돌려가며 자신의 역할과 미션을 확인합니다.  
 * 역할과 미션을 확인하고 바로 버튼을 누르면 다음 사람의 역할을 볼 수 있기 때문에  
