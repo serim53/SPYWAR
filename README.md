@@ -51,7 +51,7 @@
 
 
 ### [Role page]
-![role1](https://user-images.githubusercontent.com/67946662/107740090-9f73ae00-6d4d-11eb-9416-6af0b641ec9c.JPG) ![role2](https://user-images.githubusercontent.com/67946662/107740099-a26e9e80-6d4d-11eb-8a78-f9b319d17b2f.JPG) ![role4](https://user-images.githubusercontent.com/67946662/107740107-a5698f00-6d4d-11eb-941e-3888488046c2.JPG)
+![role1](https://user-images.githubusercontent.com/67946662/107740365-4a846780-6d4e-11eb-94bb-281fe12fe636.JPG) ![role2](https://user-images.githubusercontent.com/67946662/107740369-4f491b80-6d4e-11eb-92fb-741339943e89.JPG) ![role4](https://user-images.githubusercontent.com/67946662/107740373-53753900-6d4e-11eb-84cc-e0aceff9cbc0.JPG)
   
   
   
