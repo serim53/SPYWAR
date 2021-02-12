@@ -1,9 +1,9 @@
 ## :shipit:SPYWAR:shipit:
 ------------
 
-:small_blue_diamond: 개발기간
-/ 2021.02.08~2021.02.12
-:small_blue_diamond: 기획배경
+:small_blue_diamond: 개발기간  
+/ 2021.02.08~2021.02.12  
+:small_blue_diamond: 기획배경  
 / 일반인들도 만나서 놀 때 술게임이 아닌 런닝맨같은 게임을 할 수 있지 않을까?하는 생각에서 기획했다.
   이 어플리케이션을 이용하여 편리하게 게임을 진행할 수 있을 것이다. 
   이 게임의 옵션에는 단순히 앉아서 하는 옵션 뿐 아니라 이름표를 직접 제작하여 진행할 수 있는 옵션도 있다.
@@ -51,8 +51,11 @@
 
 
 ### [Role page]
-![registerpage](https://user-images.githubusercontent.com/67946662/107038621-21b91b00-6800-11eb-8273-32e6b52a40e3.PNG)
-
+<p align>
+![role1](https://user-images.githubusercontent.com/67946662/107740090-9f73ae00-6d4d-11eb-9416-6af0b641ec9c.JPG)
+![role2](https://user-images.githubusercontent.com/67946662/107740099-a26e9e80-6d4d-11eb-8a78-f9b319d17b2f.JPG)
+![role4](https://user-images.githubusercontent.com/67946662/107740107-a5698f00-6d4d-11eb-941e-3888488046c2.JPG)
+</p>
   
   
   
