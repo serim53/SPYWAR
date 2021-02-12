@@ -4,28 +4,33 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="#000000">
 
-    <Button
+    <android.widget.Button
         android:id="@+id/talkbutton"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:text="대화로 게임하기"
         android:textColor="#FFFFFF"
-        android:textSize="30sp" />
+        android:background="@drawable/buttonshape"
+        android:textSize="30sp"
+        android:fontFamily="@font/yisunsinbold"/>
 
-    <Button
+    <android.widget.Button
         android:id="@+id/nametagbutton"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:text="이름표떼기로 \n게임하기"
         android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
         android:textSize="30sp"
-        />
+        android:fontFamily="@font/yisunsinbold"/>
+
 
 </LinearLayout>
 

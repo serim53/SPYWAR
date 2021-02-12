@@ -4,18 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
-    android:background="@color/grey">
+    android:background="@drawable/roleback">
 
     <TextView
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="50dp"
+        android:textSize="30dp"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:text="당신의 역할은" />
+        android:text="당신의 역할은"
+        android:fontFamily="@font/yisunsinregular"/>
 
     <TextView
         android:id="@+id/roletext"
@@ -27,39 +28,45 @@
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:text="ROLE" />
+        android:text=""
+        android:fontFamily="@font/yisunsinbold"/>
 
     <TextView
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="50dp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:text="미션은" />
-
-    <TextView
-        android:id="@+id/missiontext"
+        android:id="@+id/missionis"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="50dp"
-        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:text="Mission" />
+        android:text="미션은"
+        android:fontFamily="@font/yisunsinregular"/>
 
-    <Button
+    <TextView
+        android:id="@+id/missiontext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <android.widget.Button
         android:id="@+id/nextbtn"
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:text="확인"
+        android:layout_marginTop="40dp"
+        android:text="확인하기"
         android:textColor="#FFFFFF"
-        android:textSize="30sp" />
+        android:background="@drawable/buttonshape"
+        android:textSize="30sp"
+        android:fontFamily="@font/yisunsinbold"/>
 
 </LinearLayout>

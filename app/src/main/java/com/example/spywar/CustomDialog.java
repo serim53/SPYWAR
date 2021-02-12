@@ -2,6 +2,7 @@ package com.example.spywar;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -32,6 +33,8 @@ public class CustomDialog {
 
         // 커스텀 다이얼로그의 각 위젯들을 정의한다.
         TextView description = (TextView) dlg.findViewById(R.id.description);
+        // 설명의 내용이 길어져 화면을 넘어가게 되므로 scrollview를 설정해준다.
+        description.setMovementMethod(new ScrollingMovementMethod());
         Button cancelButton = (Button) dlg.findViewById(R.id.cancel_button);
 
         description.setText(context.getString(R.string.description));

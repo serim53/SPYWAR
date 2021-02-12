@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/roleback">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="당신의 역할은"
+        android:fontFamily="@font/yisunsinregular"/>
+
+    <TextView
+        android:id="@+id/roletext"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text=""
+        android:fontFamily="@font/yisunsinbold"/>
+
+    <TextView
+        android:id="@+id/missionis"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="미션은"
+        android:fontFamily="@font/yisunsinregular"/>
+
+    <TextView
+        android:id="@+id/missiontext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <android.widget.Button
+        android:id="@+id/nextbtn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="확인하기"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:textSize="30sp"
+        android:fontFamily="@font/yisunsinbold"/>
+
+</LinearLayout>

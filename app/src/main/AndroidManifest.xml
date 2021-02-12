@@ -21,6 +21,8 @@
         <activity android:name=".NameRole"></activity>
         <activity android:name=".TalkRole"></activity>
         <activity android:name=".Talknumber"></activity>
+        <activity android:name=".GameStart"></activity>
+        <activity android:name=".Namenumber"></activity>
     </application>
 
 </manifest>
